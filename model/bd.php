@@ -1,6 +1,6 @@
 <?php	
 
-/* Clase para el manejo de la Base de datos */
+/* Libreria para el manejo de la Base de datos */
 
 
 	/* Funcion que conecta a la BD */
