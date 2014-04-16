@@ -1,18 +1,14 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
+
     <meta name="description" content="Gestión de usuarios">
-=======
+
     <meta name="description" content="Listar Usuarios">
->>>>>>> FETCH_HEAD
     <meta name="author" content="Alex Fortes">
 
     <title>TuParty.com</title>
