@@ -69,13 +69,12 @@ class usuario {
 	}
 
 	public function listarUsuarios(){
-
-
+		
 		conectarBD();
 
 		$sql = mysql_query("SELECT * FROM `Usuarios` ");
 		
-		echo $sql;
+		
 		
 
 		return $sql;

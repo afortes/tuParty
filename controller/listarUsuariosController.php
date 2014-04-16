@@ -4,7 +4,9 @@
 	
 
 	$sql= usuario::listarUsuarios();
-
+	
+	
+	header("Location: ../views/listarUsuarios.php"); 
 	
 
 
