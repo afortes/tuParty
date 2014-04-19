@@ -18,6 +18,7 @@
 
     <!-- Add custom CSS here -->
     <link href="../css/shop-item.css" rel="stylesheet">
+    <?php require_once('../model/usuario.class.php');?> <!-- Esto rompe el modelo MVC al comunicar directamente con la clase, pero no habia manera de pasar el resource de mysql_query desde el controlador a la vista -->
    
 
 </head>
@@ -71,13 +72,56 @@
                     
                     <div class="caption-full">
                         
-                        <h4>Lista de usuarios de la aplicación</h4>                       </h4>
-                         <p>
-                      <!-- Muestra la lista de usuarios -->
+                        <h4>Lista de usuarios de la aplicación</h4>                
+                         
+                        
 
-                               
-                                  
-                                  
+
+                      <!-- Muestra la lista de usuarios -->
+                      <?php $sql= usuario::listarUsuarios(); ?>
+
+                        <table class="table ">
+                                <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Email</th>
+                                    <th>Nombre</th>
+                                    <th>Apellidos</th>
+                                    <th>Fecha de nacimiento</th>
+                                    <th>Pais</th>
+                                    <th>Provincia</th>
+                                    <th>CP</th>
+                                    <th>Telf</th>
+                                    
+
+                                </tr>
+                                </thead>
+
+                        
+                        
+                         <?php while($row=mysql_fetch_array($sql)){ ?>
+
+
+                             
+                                <tbody>
+                                    <tr>
+                                        <td><?php echo $row['id_usuario'];?></td>
+                                        <td><?php echo $row['email_usuario'];?></td>
+                                        <td><?php echo $row['nombre_usuario'];?></td>
+                                        <td><?php echo $row['apellidos_usuario'];?></td>
+                                        <td><?php echo $row['fecha_nacimiento_usuario'];?></td>
+                                        <td><?php echo $row['pais_usuario'];?></td>
+                                        <td><?php echo $row['provincia_usuario'];?></td>
+                                        <td><?php echo $row['cp_usuario'];?></td>
+                                        <td><?php echo $row['telefono_usuario'];?></td>
+                                    </tr>
+                                </tbody>
+
+                             
+                             
+                        <?php }  ?>  
+                            
+                    </table>
                                   
                     </div>
                    

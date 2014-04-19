@@ -68,14 +68,14 @@ class usuario {
 		cerrarBD();
 	}
 
-	public function listarUsuarios(){
+	public static function listarUsuarios(){
 
 		conectarBD();
 
 		$sql = mysql_query("SELECT * FROM `Usuarios` ");
 		
 
-		echo $sql;
+		
 
 		
 
