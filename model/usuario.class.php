@@ -87,7 +87,7 @@ class usuario {
 
 		$row=mysql_fetch_array($sql);
 
-		
+		$this->id=$row['id_usuario'];		
 		$this->email=$row['email_usuario'];
 		$this->pass=$row['pass_usuario'];
 		$this->nombre=$row['nombre_usuario'];

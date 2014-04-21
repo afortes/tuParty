@@ -77,36 +77,36 @@
                                   <div class="form-group">
                                     <label for="Nombre">Nombre</label>
                                     <input type="text" class="form-control" id="nombre"
-                                           placeholder="Introduce tu nombre" name="nombre" value="">
+                                           placeholder="Introduce tu nombre" name="nombre" value="<?php echo $_REQUEST['id'];?>">
                                   </div>
 
                                   <div class="form-group">
                                     <label for="Apellidos">Apellidos</label>
                                     <input type="text" class="form-control" id="apellidos"
-                                           placeholder="Introduce tus apellidos" name="apellidos">
+                                           placeholder="Introduce tus apellidos" name="apellidos" value="<?php echo $_REQUEST['apellidos'];?>">
                                   </div>
 
                                  <div class="form-group">
                                     <label for="Contraseña">Contraseña</label>
                                     <input type="password" class="form-control" id="pass" name="pass" 
-                                           placeholder="Introduce tu contraseña">
+                                           placeholder="Introduce tu contraseña" value="<?php echo $_REQUEST['pass'];?>">
                                   </div>
 
                                   <div class="form-group">
                                     <label for="email">Email</label>
                                     <input type="email" class="form-control" id="email" name="email"
-                                           placeholder="Introduce tu email">
+                                           placeholder="Introduce tu email" value="<?php echo $_REQUEST['email'];?>">
                                   </div>
 
                                   <div class="form-group">
                                     <label for="Fecha de nacimiento">Fecha de nacimiento</label>
-                                    <input type="date" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento" placeholder="Introduce tu fecha de nacimiento">
+                                    <input type="date" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento" placeholder="Introduce tu fecha de nacimiento" value="<?php echo $_REQUEST['fecha_nacimiento'];?>">
                                   </div>
 
                                   <div class="form-group">
                                       <label class="control-label" for="selectbasic">País</label>
                                       <div class="controls">
-                                          <select id="pais" name="pais" >
+                                          <select id="pais" name="pais" value="<?php echo $_REQUEST['pais'];?>">
                                                     <option value="AF">Afganistán</option> 
                                                     <option value="AL">Albania</option> 
                                                     <option value="DE">Alemania</option> 
@@ -347,7 +347,7 @@
                                   <div class="form-group">
                                       <label class="control-label" for="selectbasic">Provincia</label>
                                       <div class="controls">
-                                          <select id="provincia" name="provincia" >
+                                          <select id="provincia" name="provincia" value="<?php echo $_REQUEST['provincia'];?>" >
                                                   <option value='0'>(Seleccionar)</option>
                                                   <option value='2'>Álava</option>
                                                   <option value='3'>Albacete</option>
@@ -409,13 +409,13 @@
                                   <div class="form-group">
                                     <label for="cp">Código Postal</label>
                                     <input type="number" class="form-control" id="cp" name="cp"
-                                           placeholder="Introduce tu CP">
+                                           placeholder="Introduce tu CP" value="<?php echo $_REQUEST['cp'];?>">
                                   </div>
 
                                   <div class="form-group">
                                     <label for="telefono">Teléfono</label>
                                     <input type="number" class="form-control" id="telefono" name="telefono"
-                                           placeholder="Introduce tu telefono">
+                                           placeholder="Introduce tu telefono" value="<?php echo $_REQUEST['telefono'];?>">
                                   </div>
                                 
                                   <button type="submit" class="btn btn-default">Enviar</button>
