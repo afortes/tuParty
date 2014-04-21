@@ -23,7 +23,7 @@
 	 */
 	function consulta($sql)
 	 {
-	    $resultado = mysql_query($sql,$this->conexion);
+	    $resultado = mysql_query($sql);
 	    if(!$resultado){
 	     echo 'MySQL Error: ' . mysql_error();
 	     exit;
@@ -74,6 +74,4 @@
 	function cerrarBD(){
   		mysql_close($link);
 	}
-
-
 ?>

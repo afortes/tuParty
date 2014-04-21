@@ -1,20 +1,20 @@
 <?php
-
-	require_once('../model/usuario.class.php');
+require_once('../model/usuario.class.php');
 	
 	
 
 	
-	
+	$usuario = new usuario();
 
-	
-	header("Location: ../views/listarUsuarios.php"); 
-	
-	
-
-	
+	$usuario->buscarUsuario($_REQUEST['id']);
 
 
+
+
+	
+	//header("Location: ../views/modificarUsuario.php?id='.$usuario->id.'&nombre='.usuario->nombre"); 
+
+	header("Location:../views/modificarUsuario.php");
 
 
 ?>

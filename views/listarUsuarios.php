@@ -80,7 +80,7 @@
                       <!-- Muestra la lista de usuarios -->
                       <?php $sql= usuario::listarUsuarios(); ?>
 
-                        <table class="table ">
+                        <table class="table table-hover">
                                 <thead>
                                 <tr>
                                     <th>Id</th>
@@ -92,6 +92,7 @@
                                     <th>Provincia</th>
                                     <th>CP</th>
                                     <th>Telf</th>
+
                                     
 
                                 </tr>
@@ -114,6 +115,13 @@
                                         <td><?php echo $row['provincia_usuario'];?></td>
                                         <td><?php echo $row['cp_usuario'];?></td>
                                         <td><?php echo $row['telefono_usuario'];?></td>
+                                        
+                                        <td>
+                                            <?php 
+                                            $id=$row['id_usuario'];
+                                             echo "<a href='../controller/listarUsuariosController.php?id=$id'> Modificar</a>";
+                                             ?>
+                                        </td>
                                     </tr>
                                 </tbody>
 

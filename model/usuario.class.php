@@ -1,5 +1,4 @@
 <?php
-
 require_once ('../model/bd.php');
 
 
@@ -74,18 +73,39 @@ class usuario {
 
 		$sql = mysql_query("SELECT * FROM `Usuarios` ");
 		
+		cerrarBD();
+
+		return $sql;	
+	}	
+
+	public function buscarUsuario($id){
+
+		conectarBD();
+
+		$query = "SELECT * from Usuarios where id_usuario = $id";
+		$sql=consulta($query);
+
+		$row=mysql_fetch_array($sql);
+
+		
+		$this->email=$row['email_usuario'];
+		$this->pass=$row['pass_usuario'];
+		$this->nombre=$row['nombre_usuario'];
+		$this->apellidos=$row['apellidos_usuario'];
+		$this->fecha_nacimiento=$row['fecha_nacimiento_usuario'];
+		$this->pais=$row['pais_usuario'];
+		$this->provincia=$row['provincia_usuario'];	
+		$this->cp=$row['cp_usuario'];
+		$this->telefono=$row['telefono_usuario'];
+
 
 		
 
-		
 
-		return $sql;
-		
+
+
 	}
 
 
-}
-	   
-
-
+}	   
 ?>
