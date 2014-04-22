@@ -349,58 +349,58 @@
                                       <div class="controls">
                                           <select id="provincia" name="provincia" value="<?php echo $_REQUEST['provincia'];?>" >
                                                   <option value='0'>(Seleccionar)</option>
-                                                  <option value='2'>Álava</option>
-                                                  <option value='3'>Albacete</option>
-                                                  <option value='4'>Alicante/Alacant</option>
-                                                  <option value='5'>Almería</option>
-                                                  <option value='6'>Asturias</option>
-                                                  <option value='7'>Ávila</option>
-                                                  <option value='8'>Badajoz</option>
-                                                  <option value='9'>Barcelona</option>
-                                                  <option value='10'>Burgos</option>
-                                                  <option value='11'>Cáceres</option>
-                                                  <option value='12'>Cádiz</option>
-                                                  <option value='13'>Cantabria</option>
-                                                  <option value='14'>Castellón/Castelló</option>
-                                                  <option value='15'>Ceuta</option>
-                                                  <option value='16'>Ciudad Real</option>
-                                                  <option value='17'>Córdoba</option>
-                                                  <option value='18'>Cuenca</option>
-                                                  <option value='19'>Girona</option>
-                                                  <option value='20'>Las Palmas</option>
-                                                  <option value='21'>Granada</option>
-                                                  <option value='22'>Guadalajara</option>
-                                                  <option value='23'>Guipúzcoa</option>
-                                                  <option value='24'>Huelva</option>
-                                                  <option value='25'>Huesca</option>
-                                                  <option value='26'>Illes Balears</option>
-                                                  <option value='27'>Jaén</option>
-                                                  <option value='28'>A Coruña</option>
-                                                  <option value='29'>La Rioja</option>
-                                                  <option value='30'>León</option>
-                                                  <option value='31'>Lleida</option>
-                                                  <option value='32'>Lugo</option>
-                                                  <option value='33'>Madrid</option>
-                                                  <option value='34'>Málaga</option>
-                                                  <option value='35'>Melilla</option>
-                                                  <option value='36'>Murcia</option>
-                                                  <option value='37'>Navarra</option>
-                                                  <option value='38'>Ourense</option>
-                                                  <option value='39'>Palencia</option>
-                                                  <option value='40'>Pontevedra</option>
-                                                  <option value='41'>Salamanca</option>
-                                                  <option value='42'>Segovia</option>
-                                                  <option value='43'>Sevilla</option>
-                                                  <option value='44'>Soria</option>
-                                                  <option value='45'>Tarragona</option>
-                                                  <option value='46'>Santa Cruz de Tenerife</option>
-                                                  <option value='47'>Teruel</option>
-                                                  <option value='48'>Toledo</option>
-                                                  <option value='49'>Valencia/Valéncia</option>
-                                                  <option value='50'>Valladolid</option>
-                                                  <option value='51'>Vizcaya</option>
-                                                  <option value='52'>Zamora</option>
-                                                  <option value='53'>Zaragoza</option>
+                                                  <option value='2' <?php if($_REQUEST['provincia']==2){echo "selected";} ?>> Álava</option>
+                                                  <option value='3' <?php if($_REQUEST['provincia']==3){echo "selected";} ?>>Albacete</option>
+                                                  <option value='4' <?php if($_REQUEST['provincia']==4){echo "selected";} ?>>Alicante/Alacant</option>
+                                                  <option value='5' <?php if($_REQUEST['provincia']==5){echo "selected";} ?>>Almería</option>
+                                                  <option value='6' <?php if($_REQUEST['provincia']==6){echo "selected";} ?>>Asturias</option>
+                                                  <option value='7' <?php if($_REQUEST['provincia']==7){echo "selected";} ?>>Ávila</option>
+                                                  <option value='8' <?php if($_REQUEST['provincia']==8){echo "selected";} ?>>Badajoz</option>
+                                                  <option value='9' <?php if($_REQUEST['provincia']==9){echo "selected";} ?>>Barcelona</option>
+                                                  <option value='10' <?php if($_REQUEST['provincia']==10){echo "selected";} ?>>Burgos</option>
+                                                  <option value='11' <?php if($_REQUEST['provincia']==11){echo "selected";} ?>>Cáceres</option>
+                                                  <option value='12' <?php if($_REQUEST['provincia']==12){echo "selected";} ?>>Cádiz</option>
+                                                  <option value='13' <?php if($_REQUEST['provincia']==13){echo "selected";} ?>>Cantabria</option>
+                                                  <option value='14' <?php if($_REQUEST['provincia']==14){echo "selected";} ?>>Castellón/Castelló</option>
+                                                  <option value='15' <?php if($_REQUEST['provincia']==15){echo "selected";} ?>>Ceuta</option>
+                                                  <option value='16' <?php if($_REQUEST['provincia']==16){echo "selected";} ?>>Ciudad Real</option>
+                                                  <option value='17' <?php if($_REQUEST['provincia']==17){echo "selected";} ?>>Córdoba</option>
+                                                  <option value='18' <?php if($_REQUEST['provincia']==18){echo "selected";} ?>>Cuenca</option>
+                                                  <option value='19' <?php if($_REQUEST['provincia']==19){echo "selected";} ?>>Girona</option>
+                                                  <option value='20' <?php if($_REQUEST['provincia']==20){echo "selected";} ?>>Las Palmas</option>
+                                                  <option value='21' <?php if($_REQUEST['provincia']==21){echo "selected";} ?>>Granada</option>
+                                                  <option value='22' <?php if($_REQUEST['provincia']==22){echo "selected";} ?>>Guadalajara</option>
+                                                  <option value='23' <?php if($_REQUEST['provincia']==23){echo "selected";} ?>>Guipúzcoa</option>
+                                                  <option value='24' <?php if($_REQUEST['provincia']==24){echo "selected";} ?>>Huelva</option>
+                                                  <option value='25' <?php if($_REQUEST['provincia']==25){echo "selected";} ?>>Huesca</option>
+                                                  <option value='26' <?php if($_REQUEST['provincia']==26){echo "selected";} ?>>Illes Balears</option>
+                                                  <option value='27' <?php if($_REQUEST['provincia']==27){echo "selected";} ?>>Jaén</option>
+                                                  <option value='28' <?php if($_REQUEST['provincia']==28){echo "selected";} ?>>A Coruña</option>
+                                                  <option value='29' <?php if($_REQUEST['provincia']==29){echo "selected";} ?>>La Rioja</option>
+                                                  <option value='30' <?php if($_REQUEST['provincia']==30){echo "selected";} ?>>León</option>
+                                                  <option value='31' <?php if($_REQUEST['provincia']==31){echo "selected";} ?>>Lleida</option>
+                                                  <option value='32' <?php if($_REQUEST['provincia']==32){echo "selected";} ?>>Lugo</option>
+                                                  <option value='33' <?php if($_REQUEST['provincia']==33){echo "selected";} ?>>Madrid</option>
+                                                  <option value='34' <?php if($_REQUEST['provincia']==34){echo "selected";} ?>>Málaga</option>
+                                                  <option value='35' <?php if($_REQUEST['provincia']==35){echo "selected";} ?>>Melilla</option>
+                                                  <option value='36' <?php if($_REQUEST['provincia']==36){echo "selected";} ?>>Murcia</option>
+                                                  <option value='37' <?php if($_REQUEST['provincia']==37){echo "selected";} ?>>Navarra</option>
+                                                  <option value='38' <?php if($_REQUEST['provincia']==38){echo "selected";} ?>>Ourense</option>
+                                                  <option value='39' <?php if($_REQUEST['provincia']==39){echo "selected";} ?>>Palencia</option>
+                                                  <option value='40' <?php if($_REQUEST['provincia']==40){echo "selected";} ?>>Pontevedra</option>
+                                                  <option value='41' <?php if($_REQUEST['provincia']==41){echo "selected";} ?>>Salamanca</option>
+                                                  <option value='42' <?php if($_REQUEST['provincia']==42){echo "selected";} ?>>Segovia</option>
+                                                  <option value='43' <?php if($_REQUEST['provincia']==43){echo "selected";} ?>>Sevilla</option>
+                                                  <option value='44' <?php if($_REQUEST['provincia']==44){echo "selected";} ?>>Soria</option>
+                                                  <option value='45' <?php if($_REQUEST['provincia']==45){echo "selected";} ?>>Tarragona</option>
+                                                  <option value='46' <?php if($_REQUEST['provincia']==46){echo "selected";} ?>>Santa Cruz de Tenerife</option>
+                                                  <option value='47' <?php if($_REQUEST['provincia']==47){echo "selected";} ?>>Teruel</option>
+                                                  <option value='48' <?php if($_REQUEST['provincia']==48){echo "selected";} ?>>Toledo</option>
+                                                  <option value='49' <?php if($_REQUEST['provincia']==49){echo "selected";} ?>>Valencia/Valéncia</option>
+                                                  <option value='50' <?php if($_REQUEST['provincia']==50){echo "selected";} ?>>Valladolid</option>
+                                                  <option value='51' <?php if($_REQUEST['provincia']==51){echo "selected";} ?>>Vizcaya</option>
+                                                  <option value='52' <?php if($_REQUEST['provincia']==52){echo "selected";} ?>>Zamora</option>
+                                                  <option value='53' <?php if($_REQUEST['provincia']==53){echo "selected";} ?>>Zaragoza</option>
                                           </select>
                                       </div>
                                   </div>
