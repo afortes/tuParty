@@ -106,248 +106,248 @@
                                   <div class="form-group">
                                       <label class="control-label" for="selectbasic">País</label>
                                       <div class="controls">
-                                          <select id="pais" name="pais" value="<?php echo $_REQUEST['pais'];?>">
-                                                    <option value="AF">Afganistán</option> 
-                                                    <option value="AL">Albania</option> 
-                                                    <option value="DE">Alemania</option> 
-                                                    <option value="AD">Andorra</option> 
-                                                    <option value="AO">Angola</option> 
-                                                    <option value="AI">Anguilla</option> 
-                                                    <option value="AQ">Antártida</option> 
-                                                    <option value="AG">Antigua y Barbuda</option> 
-                                                    <option value="AN">Antillas Holandesas</option> 
-                                                    <option value="SA">Arabia Saudí</option> 
-                                                    <option value="DZ">Argelia</option> 
-                                                    <option value="AR">Argentina</option> 
-                                                    <option value="AM">Armenia</option> 
-                                                    <option value="AW">Aruba</option> 
-                                                    <option value="AU">Australia</option> 
-                                                    <option value="AT">Austria</option>  
-                                                    <option value="AZ">Azerbaiyán</option>  
-                                                    <option value="BS">Bahamas</option>  
-                                                    <option value="BH">Bahrein</option>  
-                                                    <option value="BD">Bangladesh</option>  
-                                                    <option value="BB">Barbados</option>  
-                                                    <option value="BE">Bélgica</option>  
-                                                    <option value="BZ">Belice</option>  
-                                                    <option value="BJ">Benin</option>  
-                                                    <option value="BM">Bermudas</option>  
-                                                    <option value="BY">Bielorrusia</option>  
-                                                    <option value="MM">Birmania</option>  
-                                                    <option value="BO">Bolivia</option>  
-                                                    <option value="BA">Bosnia y Herzegovina</option>  
-                                                    <option value="BW">Botswana</option>  
-                                                    <option value="BR">Brasil</option>  
-                                                    <option value="BN">Brunei</option>  
-                                                    <option value="BG">Bulgaria</option>  
-                                                    <option value="BF">Burkina Faso</option>  
-                                                    <option value="BI">Burundi</option>  
-                                                    <option value="BT">Bután</option>  
-                                                    <option value="CV">Cabo Verde</option>  
-                                                    <option value="KH">Camboya</option>  
-                                                    <option value="CM">Camerún</option>  
-                                                    <option value="CA">Canadá</option>  
-                                                    <option value="TD">Chad</option>  
-                                                    <option value="CL">Chile</option>  
-                                                    <option value="CN">China</option>  
-                                                    <option value="CY">Chipre</option>  
-                                                    <option value="VA">Ciudad del Vaticano (Santa Sede)</option>  
-                                                    <option value="CO">Colombia</option>  
-                                                    <option value="KM">Comores</option>  
-                                                    <option value="CG">Congo</option>  
-                                                    <option value="CD">Congo, República Democrática del</option>  
-                                                    <option value="KR">Corea</option>  
-                                                    <option value="KP">Corea del Norte</option>  
-                                                    <option value="CI">Costa de Marfíl</option>  
-                                                    <option value="CR">Costa Rica</option>  
-                                                    <option value="HR">Croacia (Hrvatska)</option>  
-                                                    <option value="CU">Cuba</option>  
-                                                    <option value="DK">Dinamarca</option>  
-                                                    <option value="DJ">Djibouti</option>  
-                                                    <option value="DM">Dominica</option>  
-                                                    <option value="EC">Ecuador</option>  
-                                                    <option value="EG">Egipto</option>  
-                                                    <option value="SV">El Salvador</option>  
-                                                    <option value="AE">Emiratos Árabes Unidos</option>  
-                                                    <option value="ER">Eritrea</option>  
-                                                    <option value="SI">Eslovenia</option>  
-                                                    <option value="ES" selected>España</option>  
-                                                    <option value="US">Estados Unidos</option>  
-                                                    <option value="EE">Estonia</option>  
-                                                    <option value="ET">Etiopía</option>  
-                                                    <option value="FJ">Fiji</option>  
-                                                    <option value="PH">Filipinas</option>  
-                                                    <option value="FI">Finlandia</option>  
-                                                    <option value="FR">Francia</option>  
-                                                    <option value="GA">Gabón</option>  
-                                                    <option value="GM">Gambia</option>  
-                                                    <option value="GE">Georgia</option>  
-                                                    <option value="GH">Ghana</option>  
-                                                    <option value="GI">Gibraltar</option>  
-                                                    <option value="GD">Granada</option>  
-                                                    <option value="GR">Grecia</option>  
-                                                    <option value="GL">Groenlandia</option>  
-                                                    <option value="GP">Guadalupe</option>  
-                                                    <option value="GU">Guam</option>  
-                                                    <option value="GT">Guatemala</option>  
-                                                    <option value="GY">Guayana</option>  
-                                                    <option value="GF">Guayana Francesa</option>  
-                                                    <option value="GN">Guinea</option>  
-                                                    <option value="GQ">Guinea Ecuatorial</option>  
-                                                    <option value="GW">Guinea-Bissau</option>  
-                                                    <option value="HT">Haití</option>  
-                                                    <option value="HN">Honduras</option>  
-                                                    <option value="HU">Hungría</option>  
-                                                    <option value="IN">India</option>  
-                                                    <option value="ID">Indonesia</option>  
-                                                    <option value="IQ">Irak</option>  
-                                                    <option value="IR">Irán</option>  
-                                                    <option value="IE">Irlanda</option>  
-                                                    <option value="BV">Isla Bouvet</option>  
-                                                    <option value="CX">Isla de Christmas</option>  
-                                                    <option value="IS">Islandia</option>  
-                                                    <option value="KY">Islas Caimán</option>  
-                                                    <option value="CK">Islas Cook</option>  
-                                                    <option value="CC">Islas de Cocos o Keeling</option>  
-                                                    <option value="FO">Islas Faroe</option>  
-                                                    <option value="HM">Islas Heard y McDonald</option>  
-                                                    <option value="FK">Islas Malvinas</option>  
-                                                    <option value="MP">Islas Marianas del Norte</option>  
-                                                    <option value="MH">Islas Marshall</option>  
-                                                    <option value="UM">Islas menores de Estados Unidos</option>  
-                                                    <option value="PW">Islas Palau</option>  
-                                                    <option value="SB">Islas Salomón</option>  
-                                                    <option value="SJ">Islas Svalbard y Jan Mayen</option>  
-                                                    <option value="TK">Islas Tokelau</option>  
-                                                    <option value="TC">Islas Turks y Caicos</option>  
-                                                    <option value="VI">Islas Vírgenes (EE.UU.)</option>  
-                                                    <option value="VG">Islas Vírgenes (Reino Unido)</option>  
-                                                    <option value="WF">Islas Wallis y Futuna</option>  
-                                                    <option value="IL">Israel</option>  
-                                                    <option value="IT">Italia</option>  
-                                                    <option value="JM">Jamaica</option>  
-                                                    <option value="JP">Japón</option>  
-                                                    <option value="JO">Jordania</option>  
-                                                    <option value="KZ">Kazajistán</option>  
-                                                    <option value="KE">Kenia</option>  
-                                                    <option value="KG">Kirguizistán</option>  
-                                                    <option value="KI">Kiribati</option>  
-                                                    <option value="KW">Kuwait</option>  
-                                                    <option value="LA">Laos</option>  
-                                                    <option value="LS">Lesotho</option>  
-                                                    <option value="LV">Letonia</option>  
-                                                    <option value="LB">Líbano</option>  
-                                                    <option value="LR">Liberia</option>  
-                                                    <option value="LY">Libia</option>  
-                                                    <option value="LI">Liechtenstein</option>  
-                                                    <option value="LT">Lituania</option>  
-                                                    <option value="LU">Luxemburgo</option>  
-                                                    <option value="MK">Macedonia, Ex-República Yugoslava de</option>  
-                                                    <option value="MG">Madagascar</option>  
-                                                    <option value="MY">Malasia</option>  
-                                                    <option value="MW">Malawi</option>  
-                                                    <option value="MV">Maldivas</option>  
-                                                    <option value="ML">Malí</option>  
-                                                    <option value="MT">Malta</option>  
-                                                    <option value="MA">Marruecos</option>  
-                                                    <option value="MQ">Martinica</option>  
-                                                    <option value="MU">Mauricio</option>  
-                                                    <option value="MR">Mauritania</option>  
-                                                    <option value="YT">Mayotte</option>  
-                                                    <option value="MX">México</option>  
-                                                    <option value="FM">Micronesia</option>  
-                                                    <option value="MD">Moldavia</option>  
-                                                    <option value="MC">Mónaco</option>  
-                                                    <option value="MN">Mongolia</option>  
-                                                    <option value="MS">Montserrat</option>  
-                                                    <option value="MZ">Mozambique</option>  
-                                                    <option value="NA">Namibia</option>  
-                                                    <option value="NR">Nauru</option>  
-                                                    <option value="NP">Nepal</option>  
-                                                    <option value="NI">Nicaragua</option>  
-                                                    <option value="NE">Níger</option>  
-                                                    <option value="NG">Nigeria</option>  
-                                                    <option value="NU">Niue</option>  
-                                                    <option value="NF">Norfolk</option>  
-                                                    <option value="NO">Noruega</option>  
-                                                    <option value="NC">Nueva Caledonia</option>  
-                                                    <option value="NZ">Nueva Zelanda</option>  
-                                                    <option value="OM">Omán</option>  
-                                                    <option value="NL">Países Bajos</option>  
-                                                    <option value="PA">Panamá</option>  
-                                                    <option value="PG">Papúa Nueva Guinea</option>  
-                                                    <option value="PK">Paquistán</option>  
-                                                    <option value="PY">Paraguay</option>  
-                                                    <option value="PE">Perú</option>  
-                                                    <option value="PN">Pitcairn</option>  
-                                                    <option value="PF">Polinesia Francesa</option>  
-                                                    <option value="PL">Polonia</option>  
-                                                    <option value="PT">Portugal</option>  
-                                                    <option value="PR">Puerto Rico</option>  
-                                                    <option value="QA">Qatar</option>  
-                                                    <option value="UK">Reino Unido</option>  
-                                                    <option value="CF">República Centroafricana</option>  
-                                                    <option value="CZ">República Checa</option>  
-                                                    <option value="ZA">República de Sudáfrica</option>  
-                                                    <option value="DO">República Dominicana</option>  
-                                                    <option value="SK">República Eslovaca</option>  
-                                                    <option value="RE">Reunión</option>  
-                                                    <option value="RW">Ruanda</option>  
-                                                    <option value="RO">Rumania</option>  
-                                                    <option value="RU">Rusia</option>  
-                                                    <option value="EH">Sahara Occidental</option>  
-                                                    <option value="KN">Saint Kitts y Nevis</option>  
-                                                    <option value="WS">Samoa</option>  
-                                                    <option value="AS">Samoa Americana</option>  
-                                                    <option value="SM">San Marino</option>  
-                                                    <option value="VC">San Vicente y Granadinas</option>  
-                                                    <option value="SH">Santa Helena</option>  
-                                                    <option value="LC">Santa Lucía</option>  
-                                                    <option value="ST">Santo Tomé y Príncipe</option>  
-                                                    <option value="SN">Senegal</option>  
-                                                    <option value="SC">Seychelles</option>  
-                                                    <option value="SL">Sierra Leona</option>  
-                                                    <option value="SG">Singapur</option>  
-                                                    <option value="SY">Siria</option>  
-                                                    <option value="SO">Somalia</option>  
-                                                    <option value="LK">Sri Lanka</option>  
-                                                    <option value="PM">St. Pierre y Miquelon</option>  
-                                                    <option value="SZ">Suazilandia</option>  
-                                                    <option value="SD">Sudán</option>  
-                                                    <option value="SE">Suecia</option>  
-                                                    <option value="CH">Suiza</option>  
-                                                    <option value="SR">Surinam</option>  
-                                                    <option value="TH">Tailandia</option>  
-                                                    <option value="TW">Taiwán</option>  
-                                                    <option value="TZ">Tanzania</option>  
-                                                    <option value="TJ">Tayikistán</option>  
-                                                    <option value="TF">Territorios franceses del Sur</option>  
-                                                    <option value="TP">Timor Oriental</option>  
-                                                    <option value="TG">Togo</option>  
-                                                    <option value="TO">Tonga</option>  
-                                                    <option value="TT">Trinidad y Tobago</option>  
-                                                    <option value="TN">Túnez</option>  
-                                                    <option value="TM">Turkmenistán</option>  
-                                                    <option value="TR">Turquía</option>  
-                                                    <option value="TV">Tuvalu</option>  
-                                                    <option value="UA">Ucrania</option>  
-                                                    <option value="UG">Uganda</option>  
-                                                    <option value="UY">Uruguay</option>  
-                                                    <option value="UZ">Uzbekistán</option>  
-                                                    <option value="VU">Vanuatu</option>  
-                                                    <option value="VE">Venezuela</option>  
-                                                    <option value="VN">Vietnam</option>  
-                                                    <option value="YE">Yemen</option>  
-                                                    <option value="YU">Yugoslavia</option>  
-                                                    <option value="ZM">Zambia</option>  
-                                                    <option value="ZW">Zimbabue</option> 
+                                          <select id="pais" name="pais">
+                                                    <option value="AF" <?php if($_REQUEST['pais']=='AF'){echo "selected";} ?>>Afganistán</option> 
+                                                    <option value="AL" <?php if($_REQUEST['pais']=='AL'){echo "selected";} ?>>Albania</option> 
+                                                    <option value="DE" <?php if($_REQUEST['pais']=='DE'){echo "selected";} ?>>Alemania</option> 
+                                                    <option value="AD" <?php if($_REQUEST['pais']=='AD'){echo "selected";} ?>>Andorra</option> 
+                                                    <option value="AO" <?php if($_REQUEST['pais']=='AO'){echo "selected";} ?>>Angola</option> 
+                                                    <option value="AI" <?php if($_REQUEST['pais']=='AI'){echo "selected";} ?>>Anguilla</option> 
+                                                    <option value="AQ" <?php if($_REQUEST['pais']=='AQ'){echo "selected";} ?>>Antártida</option> 
+                                                    <option value="AG" <?php if($_REQUEST['pais']=='AG'){echo "selected";} ?>>Antigua y Barbuda</option> 
+                                                    <option value="AN" <?php if($_REQUEST['pais']=='AN'){echo "selected";} ?>>Antillas Holandesas</option> 
+                                                    <option value="SA" <?php if($_REQUEST['pais']=='SA'){echo "selected";} ?>>Arabia Saudí</option> 
+                                                    <option value="DZ" <?php if($_REQUEST['pais']=='DZ'){echo "selected";} ?>>Argelia</option> 
+                                                    <option value="AR" <?php if($_REQUEST['pais']=='AR'){echo "selected";} ?>>Argentina</option> 
+                                                    <option value="AM" <?php if($_REQUEST['pais']=='AM'){echo "selected";} ?>>Armenia</option> 
+                                                    <option value="AW" <?php if($_REQUEST['pais']=='AW'){echo "selected";} ?>>Aruba</option> 
+                                                    <option value="AU" <?php if($_REQUEST['pais']=='AU'){echo "selected";} ?>>Australia</option> 
+                                                    <option value="AT" <?php if($_REQUEST['pais']=='AT'){echo "selected";} ?>>Austria</option>  
+                                                    <option value="AZ" <?php if($_REQUEST['pais']=='AZ'){echo "selected";} ?>>Azerbaiyán</option>  
+                                                    <option value="BS" <?php if($_REQUEST['pais']=='BS'){echo "selected";} ?>>Bahamas</option>  
+                                                    <option value="BH" <?php if($_REQUEST['pais']=='BH'){echo "selected";} ?>>Bahrein</option>  
+                                                    <option value="BD" <?php if($_REQUEST['pais']=='BD'){echo "selected";} ?>>Bangladesh</option>  
+                                                    <option value="BB" <?php if($_REQUEST['pais']=='BB'){echo "selected";} ?>>Barbados</option>  
+                                                    <option value="BE" <?php if($_REQUEST['pais']=='BE'){echo "selected";} ?>>Bélgica</option>  
+                                                    <option value="BZ" <?php if($_REQUEST['pais']=='BZ'){echo "selected";} ?>>Belice</option>  
+                                                    <option value="BJ" <?php if($_REQUEST['pais']=='BJ'){echo "selected";} ?>>Benin</option>  
+                                                    <option value="BM" <?php if($_REQUEST['pais']=='BM'){echo "selected";} ?>>Bermudas</option>  
+                                                    <option value="BY" <?php if($_REQUEST['pais']=='BY'){echo "selected";} ?>>Bielorrusia</option>  
+                                                    <option value="MM" <?php if($_REQUEST['pais']=='MM'){echo "selected";} ?>>Birmania</option>  
+                                                    <option value="BO" <?php if($_REQUEST['pais']=='BO'){echo "selected";} ?>>Bolivia</option>  
+                                                    <option value="BA" <?php if($_REQUEST['pais']=='BA'){echo "selected";} ?>>Bosnia y Herzegovina</option>  
+                                                    <option value="BW" <?php if($_REQUEST['pais']=='BW'){echo "selected";} ?>>Botswana</option>  
+                                                    <option value="BR" <?php if($_REQUEST['pais']=='BR'){echo "selected";} ?>>Brasil</option>  
+                                                    <option value="BN" <?php if($_REQUEST['pais']=='BN'){echo "selected";} ?>>Brunei</option>  
+                                                    <option value="BG" <?php if($_REQUEST['pais']=='BG'){echo "selected";} ?>>Bulgaria</option>  
+                                                    <option value="BF" <?php if($_REQUEST['pais']=='BF'){echo "selected";} ?>>Burkina Faso</option>  
+                                                    <option value="BI" <?php if($_REQUEST['pais']=='BI'){echo "selected";} ?>>Burundi</option>  
+                                                    <option value="BT" <?php if($_REQUEST['pais']=='BT'){echo "selected";} ?>>Bután</option>  
+                                                    <option value="CV" <?php if($_REQUEST['pais']=='CV'){echo "selected";} ?>>Cabo Verde</option>  
+                                                    <option value="KH" <?php if($_REQUEST['pais']=='KH'){echo "selected";} ?>>Camboya</option>  
+                                                    <option value="CM" <?php if($_REQUEST['pais']=='CM'){echo "selected";} ?>>Camerún</option>  
+                                                    <option value="CA" <?php if($_REQUEST['pais']=='CA'){echo "selected";} ?>>Canadá</option>  
+                                                    <option value="TD" <?php if($_REQUEST['pais']=='TD'){echo "selected";} ?>>Chad</option>  
+                                                    <option value="CL" <?php if($_REQUEST['pais']=='CL'){echo "selected";} ?>>Chile</option>  
+                                                    <option value="CN" <?php if($_REQUEST['pais']=='CN'){echo "selected";} ?>>China</option>  
+                                                    <option value="CY" <?php if($_REQUEST['pais']=='CY'){echo "selected";} ?>>Chipre</option>  
+                                                    <option value="VA" <?php if($_REQUEST['pais']=='VA'){echo "selected";} ?>>Ciudad del Vaticano (Santa Sede)</option>  
+                                                    <option value="CO" <?php if($_REQUEST['pais']=='CO'){echo "selected";} ?>>Colombia</option>  
+                                                    <option value="KM" <?php if($_REQUEST['pais']=='KM'){echo "selected";} ?>>Comores</option>  
+                                                    <option value="CG" <?php if($_REQUEST['pais']=='CG'){echo "selected";} ?>>Congo</option>  
+                                                    <option value="CD" <?php if($_REQUEST['pais']=='CD'){echo "selected";} ?>>Congo, República Democrática del</option>  
+                                                    <option value="KR" <?php if($_REQUEST['pais']=='KR'){echo "selected";} ?>>Corea</option>  
+                                                    <option value="KP" <?php if($_REQUEST['pais']=='KP'){echo "selected";} ?>>Corea del Norte</option>  
+                                                    <option value="CI" <?php if($_REQUEST['pais']=='CI'){echo "selected";} ?>>Costa de Marfíl</option>  
+                                                    <option value="CR" <?php if($_REQUEST['pais']=='CR'){echo "selected";} ?>>Costa Rica</option>  
+                                                    <option value="HR" <?php if($_REQUEST['pais']=='HR'){echo "selected";} ?>>Croacia (Hrvatska)</option>  
+                                                    <option value="CU" <?php if($_REQUEST['pais']=='CU'){echo "selected";} ?>>Cuba</option>  
+                                                    <option value="DK" <?php if($_REQUEST['pais']=='DK'){echo "selected";} ?>>Dinamarca</option>  
+                                                    <option value="DJ" <?php if($_REQUEST['pais']=='DJ'){echo "selected";} ?>>Djibouti</option>  
+                                                    <option value="DM" <?php if($_REQUEST['pais']=='DM'){echo "selected";} ?>>Dominica</option>  
+                                                    <option value="EC" <?php if($_REQUEST['pais']=='EC'){echo "selected";} ?>>Ecuador</option>  
+                                                    <option value="EG" <?php if($_REQUEST['pais']=='EG'){echo "selected";} ?>>Egipto</option>  
+                                                    <option value="SV" <?php if($_REQUEST['pais']=='SV'){echo "selected";} ?>>El Salvador</option>  
+                                                    <option value="AE" <?php if($_REQUEST['pais']=='AE'){echo "selected";} ?>>Emiratos Árabes Unidos</option>  
+                                                    <option value="ER" <?php if($_REQUEST['pais']=='ER'){echo "selected";} ?>>Eritrea</option>  
+                                                    <option value="SI" <?php if($_REQUEST['pais']=='SI'){echo "selected";} ?>>Eslovenia</option>  
+                                                    <option value="ES" <?php if($_REQUEST['pais']=='ES'){echo "selected";} ?>>España</option>  
+                                                    <option value="US" <?php if($_REQUEST['pais']=='US'){echo "selected";} ?>>Estados Unidos</option>  
+                                                    <option value="EE" <?php if($_REQUEST['pais']=='EE'){echo "selected";} ?>>Estonia</option>  
+                                                    <option value="ET" <?php if($_REQUEST['pais']=='ET'){echo "selected";} ?>>Etiopía</option>  
+                                                    <option value="FJ" <?php if($_REQUEST['pais']=='FJ'){echo "selected";} ?>>Fiji</option>  
+                                                    <option value="PH" <?php if($_REQUEST['pais']=='PH'){echo "selected";} ?>>Filipinas</option>  
+                                                    <option value="FI" <?php if($_REQUEST['pais']=='FI'){echo "selected";} ?>>Finlandia</option>  
+                                                    <option value="FR" <?php if($_REQUEST['pais']=='FR'){echo "selected";} ?>>Francia</option>  
+                                                    <option value="GA" <?php if($_REQUEST['pais']=='GA'){echo "selected";} ?>>Gabón</option>  
+                                                    <option value="GM" <?php if($_REQUEST['pais']=='GM'){echo "selected";} ?>>Gambia</option>  
+                                                    <option value="GE" <?php if($_REQUEST['pais']=='GE'){echo "selected";} ?>>Georgia</option>  
+                                                    <option value="GH" <?php if($_REQUEST['pais']=='GH'){echo "selected";} ?>>Ghana</option>  
+                                                    <option value="GI" <?php if($_REQUEST['pais']=='GI'){echo "selected";} ?>>Gibraltar</option>  
+                                                    <option value="GD" <?php if($_REQUEST['pais']=='GD'){echo "selected";} ?>>Granada</option>  
+                                                    <option value="GR" <?php if($_REQUEST['pais']=='GR'){echo "selected";} ?>>Grecia</option>  
+                                                    <option value="GL" <?php if($_REQUEST['pais']=='GL'){echo "selected";} ?>>Groenlandia</option>  
+                                                    <option value="GP" <?php if($_REQUEST['pais']=='GP'){echo "selected";} ?>>Guadalupe</option>  
+                                                    <option value="GU" <?php if($_REQUEST['pais']=='GU'){echo "selected";} ?>>Guam</option>  
+                                                    <option value="GT" <?php if($_REQUEST['pais']=='GT'){echo "selected";} ?>>Guatemala</option>  
+                                                    <option value="GY" <?php if($_REQUEST['pais']=='GY'){echo "selected";} ?>>Guayana</option>  
+                                                    <option value="GF" <?php if($_REQUEST['pais']=='GF'){echo "selected";} ?>>Guayana Francesa</option>  
+                                                    <option value="GN" <?php if($_REQUEST['pais']=='GN'){echo "selected";} ?>>Guinea</option>  
+                                                    <option value="GQ" <?php if($_REQUEST['pais']=='GQ'){echo "selected";} ?>>Guinea Ecuatorial</option>  
+                                                    <option value="GW" <?php if($_REQUEST['pais']=='GW'){echo "selected";} ?>>Guinea-Bissau</option>  
+                                                    <option value="HT" <?php if($_REQUEST['pais']=='HT'){echo "selected";} ?>>Haití</option>  
+                                                    <option value="HN" <?php if($_REQUEST['pais']=='HN'){echo "selected";} ?>>Honduras</option>  
+                                                    <option value="HU" <?php if($_REQUEST['pais']=='HU'){echo "selected";} ?>>Hungría</option>  
+                                                    <option value="IN" <?php if($_REQUEST['pais']=='IN'){echo "selected";} ?>>India</option>  
+                                                    <option value="ID" <?php if($_REQUEST['pais']=='ID'){echo "selected";} ?>>Indonesia</option>  
+                                                    <option value="IQ" <?php if($_REQUEST['pais']=='IQ'){echo "selected";} ?>>Irak</option>  
+                                                    <option value="IR" <?php if($_REQUEST['pais']=='IR'){echo "selected";} ?>>Irán</option>  
+                                                    <option value="IE" <?php if($_REQUEST['pais']=='IE'){echo "selected";} ?>>Irlanda</option>  
+                                                    <option value="BV" <?php if($_REQUEST['pais']=='BV'){echo "selected";} ?>>Isla Bouvet</option>  
+                                                    <option value="CX" <?php if($_REQUEST['pais']=='CX'){echo "selected";} ?>>Isla de Christmas</option>  
+                                                    <option value="IS" <?php if($_REQUEST['pais']=='IS'){echo "selected";} ?>>Islandia</option>  
+                                                    <option value="KY" <?php if($_REQUEST['pais']=='KY'){echo "selected";} ?>>Islas Caimán</option>  
+                                                    <option value="CK" <?php if($_REQUEST['pais']=='CK'){echo "selected";} ?>>Islas Cook</option>  
+                                                    <option value="CC" <?php if($_REQUEST['pais']=='CC'){echo "selected";} ?>>Islas de Cocos o Keeling</option>  
+                                                    <option value="FO" <?php if($_REQUEST['pais']=='FO'){echo "selected";} ?>>Islas Faroe</option>  
+                                                    <option value="HM" <?php if($_REQUEST['pais']=='HM'){echo "selected";} ?>>Islas Heard y McDonald</option>  
+                                                    <option value="FK" <?php if($_REQUEST['pais']=='FK'){echo "selected";} ?>>Islas Malvinas</option>  
+                                                    <option value="MP" <?php if($_REQUEST['pais']=='MP'){echo "selected";} ?>>Islas Marianas del Norte</option>  
+                                                    <option value="MH" <?php if($_REQUEST['pais']=='MH'){echo "selected";} ?>>Islas Marshall</option>  
+                                                    <option value="UM" <?php if($_REQUEST['pais']=='UM'){echo "selected";} ?>>Islas menores de Estados Unidos</option>  
+                                                    <option value="PW" <?php if($_REQUEST['pais']=='PW'){echo "selected";} ?>>Islas Palau</option>  
+                                                    <option value="SB" <?php if($_REQUEST['pais']=='SB'){echo "selected";} ?>>Islas Salomón</option>  
+                                                    <option value="SJ" <?php if($_REQUEST['pais']=='SJ'){echo "selected";} ?>>Islas Svalbard y Jan Mayen</option>  
+                                                    <option value="TK" <?php if($_REQUEST['pais']=='TK'){echo "selected";} ?>>Islas Tokelau</option>  
+                                                    <option value="TC" <?php if($_REQUEST['pais']=='TC'){echo "selected";} ?>>Islas Turks y Caicos</option>  
+                                                    <option value="VI" <?php if($_REQUEST['pais']=='VI'){echo "selected";} ?>>Islas Vírgenes (EE.UU.)</option>  
+                                                    <option value="VG" <?php if($_REQUEST['pais']=='VG'){echo "selected";} ?>>Islas Vírgenes (Reino Unido)</option>  
+                                                    <option value="WF" <?php if($_REQUEST['pais']=='WF'){echo "selected";} ?>>Islas Wallis y Futuna</option>  
+                                                    <option value="IL" <?php if($_REQUEST['pais']=='IL'){echo "selected";} ?>>Israel</option>  
+                                                    <option value="IT" <?php if($_REQUEST['pais']=='IT'){echo "selected";} ?>>Italia</option>  
+                                                    <option value="JM" <?php if($_REQUEST['pais']=='JM'){echo "selected";} ?>>Jamaica</option>  
+                                                    <option value="JP" <?php if($_REQUEST['pais']=='JP'){echo "selected";} ?>>Japón</option>  
+                                                    <option value="JO" <?php if($_REQUEST['pais']=='JO'){echo "selected";} ?>>Jordania</option>  
+                                                    <option value="KZ" <?php if($_REQUEST['pais']=='KZ'){echo "selected";} ?>>Kazajistán</option>  
+                                                    <option value="KE" <?php if($_REQUEST['pais']=='KE'){echo "selected";} ?>>Kenia</option>  
+                                                    <option value="KG" <?php if($_REQUEST['pais']=='KG'){echo "selected";} ?>>Kirguizistán</option>  
+                                                    <option value="KI" <?php if($_REQUEST['pais']=='KI'){echo "selected";} ?>>Kiribati</option>  
+                                                    <option value="KW" <?php if($_REQUEST['pais']=='KW'){echo "selected";} ?>>Kuwait</option>  
+                                                    <option value="LA" <?php if($_REQUEST['pais']=='LA'){echo "selected";} ?>>Laos</option>  
+                                                    <option value="LS" <?php if($_REQUEST['pais']=='LS'){echo "selected";} ?>>Lesotho</option>  
+                                                    <option value="LV" <?php if($_REQUEST['pais']=='LV'){echo "selected";} ?>>Letonia</option>  
+                                                    <option value="LB" <?php if($_REQUEST['pais']=='LB'){echo "selected";} ?>>Líbano</option>  
+                                                    <option value="LR" <?php if($_REQUEST['pais']=='LR'){echo "selected";} ?>>Liberia</option>  
+                                                    <option value="LY" <?php if($_REQUEST['pais']=='LY'){echo "selected";} ?>>Libia</option>  
+                                                    <option value="LI" <?php if($_REQUEST['pais']=='LI'){echo "selected";} ?>>Liechtenstein</option>  
+                                                    <option value="LT" <?php if($_REQUEST['pais']=='LT'){echo "selected";} ?>>Lituania</option>  
+                                                    <option value="LU" <?php if($_REQUEST['pais']=='LU'){echo "selected";} ?>>Luxemburgo</option>  
+                                                    <option value="MK" <?php if($_REQUEST['pais']=='MK'){echo "selected";} ?>>Macedonia, Ex-República Yugoslava de</option>  
+                                                    <option value="MG" <?php if($_REQUEST['pais']=='MG'){echo "selected";} ?>>Madagascar</option>  
+                                                    <option value="MY" <?php if($_REQUEST['pais']=='MY'){echo "selected";} ?>>Malasia</option>  
+                                                    <option value="MW" <?php if($_REQUEST['pais']=='MW'){echo "selected";} ?>>Malawi</option>  
+                                                    <option value="MV" <?php if($_REQUEST['pais']=='MV'){echo "selected";} ?>>Maldivas</option>  
+                                                    <option value="ML" <?php if($_REQUEST['pais']=='ML'){echo "selected";} ?>>Malí</option>  
+                                                    <option value="MT" <?php if($_REQUEST['pais']=='MT'){echo "selected";} ?>>Malta</option>  
+                                                    <option value="MA" <?php if($_REQUEST['pais']=='MA'){echo "selected";} ?>>Marruecos</option>  
+                                                    <option value="MQ" <?php if($_REQUEST['pais']=='MQ'){echo "selected";} ?>>Martinica</option>  
+                                                    <option value="MU" <?php if($_REQUEST['pais']=='MU'){echo "selected";} ?>>Mauricio</option>  
+                                                    <option value="MR" <?php if($_REQUEST['pais']=='MR'){echo "selected";} ?>>Mauritania</option>  
+                                                    <option value="YT" <?php if($_REQUEST['pais']=='YT'){echo "selected";} ?>>Mayotte</option>  
+                                                    <option value="MX" <?php if($_REQUEST['pais']=='MX'){echo "selected";} ?>>México</option>  
+                                                    <option value="FM" <?php if($_REQUEST['pais']=='FM'){echo "selected";} ?>>Micronesia</option>  
+                                                    <option value="MD" <?php if($_REQUEST['pais']=='MD'){echo "selected";} ?>>Moldavia</option>  
+                                                    <option value="MC" <?php if($_REQUEST['pais']=='MC'){echo "selected";} ?>>Mónaco</option>  
+                                                    <option value="MN" <?php if($_REQUEST['pais']=='MN'){echo "selected";} ?>>Mongolia</option>  
+                                                    <option value="MS" <?php if($_REQUEST['pais']=='MS'){echo "selected";} ?>>Montserrat</option>  
+                                                    <option value="MZ" <?php if($_REQUEST['pais']=='MZ'){echo "selected";} ?>>Mozambique</option>  
+                                                    <option value="NA" <?php if($_REQUEST['pais']=='NA'){echo "selected";} ?>>Namibia</option>  
+                                                    <option value="NR" <?php if($_REQUEST['pais']=='NR'){echo "selected";} ?>>Nauru</option>  
+                                                    <option value="NP" <?php if($_REQUEST['pais']=='NP'){echo "selected";} ?>>Nepal</option>  
+                                                    <option value="NI" <?php if($_REQUEST['pais']=='NI'){echo "selected";} ?>>Nicaragua</option>  
+                                                    <option value="NE" <?php if($_REQUEST['pais']=='NE'){echo "selected";} ?>>Níger</option>  
+                                                    <option value="NG" <?php if($_REQUEST['pais']=='NG'){echo "selected";} ?>>Nigeria</option>  
+                                                    <option value="NU" <?php if($_REQUEST['pais']=='NU'){echo "selected";} ?>>Niue</option>  
+                                                    <option value="NF" <?php if($_REQUEST['pais']=='NF'){echo "selected";} ?>>Norfolk</option>  
+                                                    <option value="NO" <?php if($_REQUEST['pais']=='NO'){echo "selected";} ?>>Noruega</option>  
+                                                    <option value="NC" <?php if($_REQUEST['pais']=='NC'){echo "selected";} ?>>Nueva Caledonia</option>  
+                                                    <option value="NZ" <?php if($_REQUEST['pais']=='NZ'){echo "selected";} ?>>Nueva Zelanda</option>  
+                                                    <option value="OM" <?php if($_REQUEST['pais']=='OM'){echo "selected";} ?>>Omán</option>  
+                                                    <option value="NL" <?php if($_REQUEST['pais']=='NL'){echo "selected";} ?>>Países Bajos</option>  
+                                                    <option value="PA" <?php if($_REQUEST['pais']=='PA'){echo "selected";} ?>>Panamá</option>  
+                                                    <option value="PG" <?php if($_REQUEST['pais']=='PG'){echo "selected";} ?>>Papúa Nueva Guinea</option>  
+                                                    <option value="PK" <?php if($_REQUEST['pais']=='PK'){echo "selected";} ?>>Paquistán</option>  
+                                                    <option value="PY" <?php if($_REQUEST['pais']=='PY'){echo "selected";} ?>>Paraguay</option>  
+                                                    <option value="PE" <?php if($_REQUEST['pais']=='PE'){echo "selected";} ?>>Perú</option>  
+                                                    <option value="PN" <?php if($_REQUEST['pais']=='PN'){echo "selected";} ?>>Pitcairn</option>  
+                                                    <option value="PF" <?php if($_REQUEST['pais']=='PF'){echo "selected";} ?>>Polinesia Francesa</option>  
+                                                    <option value="PL" <?php if($_REQUEST['pais']=='PL'){echo "selected";} ?>>Polonia</option>  
+                                                    <option value="PT" <?php if($_REQUEST['pais']=='PT'){echo "selected";} ?>>Portugal</option>  
+                                                    <option value="PR" <?php if($_REQUEST['pais']=='PR'){echo "selected";} ?>>Puerto Rico</option>  
+                                                    <option value="QA" <?php if($_REQUEST['pais']=='QA'){echo "selected";} ?>>Qatar</option>  
+                                                    <option value="UK" <?php if($_REQUEST['pais']=='UK'){echo "selected";} ?>>Reino Unido</option>  
+                                                    <option value="CF" <?php if($_REQUEST['pais']=='CF'){echo "selected";} ?>>República Centroafricana</option>  
+                                                    <option value="CZ" <?php if($_REQUEST['pais']=='CZ'){echo "selected";} ?>>República Checa</option>  
+                                                    <option value="ZA" <?php if($_REQUEST['pais']=='ZA'){echo "selected";} ?>>República de Sudáfrica</option>  
+                                                    <option value="DO" <?php if($_REQUEST['pais']=='DO'){echo "selected";} ?>>República Dominicana</option>  
+                                                    <option value="SK" <?php if($_REQUEST['pais']=='SK'){echo "selected";} ?>>República Eslovaca</option>  
+                                                    <option value="RE" <?php if($_REQUEST['pais']=='RE'){echo "selected";} ?>>Reunión</option>  
+                                                    <option value="RW" <?php if($_REQUEST['pais']=='RW'){echo "selected";} ?>>Ruanda</option>  
+                                                    <option value="RO" <?php if($_REQUEST['pais']=='RO'){echo "selected";} ?>>Rumania</option>  
+                                                    <option value="RU" <?php if($_REQUEST['pais']=='RU'){echo "selected";} ?>>Rusia</option>  
+                                                    <option value="EH" <?php if($_REQUEST['pais']=='EH'){echo "selected";} ?>>Sahara Occidental</option>  
+                                                    <option value="KN" <?php if($_REQUEST['pais']=='KN'){echo "selected";} ?>>Saint Kitts y Nevis</option>  
+                                                    <option value="WS" <?php if($_REQUEST['pais']=='WS'){echo "selected";} ?>>Samoa</option>  
+                                                    <option value="AS" <?php if($_REQUEST['pais']=='AS'){echo "selected";} ?>>Samoa Americana</option>  
+                                                    <option value="SM" <?php if($_REQUEST['pais']=='SM'){echo "selected";} ?>>San Marino</option>  
+                                                    <option value="VC" <?php if($_REQUEST['pais']=='VC'){echo "selected";} ?>>San Vicente y Granadinas</option>  
+                                                    <option value="SH" <?php if($_REQUEST['pais']=='SH'){echo "selected";} ?>>Santa Helena</option>  
+                                                    <option value="LC" <?php if($_REQUEST['pais']=='LC'){echo "selected";} ?>>Santa Lucía</option>  
+                                                    <option value="ST" <?php if($_REQUEST['pais']=='ST'){echo "selected";} ?>>Santo Tomé y Príncipe</option>  
+                                                    <option value="SN" <?php if($_REQUEST['pais']=='SN'){echo "selected";} ?>>Senegal</option>  
+                                                    <option value="SC" <?php if($_REQUEST['pais']=='SC'){echo "selected";} ?>>Seychelles</option>  
+                                                    <option value="SL" <?php if($_REQUEST['pais']=='SL'){echo "selected";} ?>>Sierra Leona</option>  
+                                                    <option value="SG" <?php if($_REQUEST['pais']=='SG'){echo "selected";} ?>>Singapur</option>  
+                                                    <option value="SY" <?php if($_REQUEST['pais']=='SY'){echo "selected";} ?>>Siria</option>  
+                                                    <option value="SO" <?php if($_REQUEST['pais']=='SO'){echo "selected";} ?>>Somalia</option>  
+                                                    <option value="LK" <?php if($_REQUEST['pais']=='LK'){echo "selected";} ?>>Sri Lanka</option>  
+                                                    <option value="PM" <?php if($_REQUEST['pais']=='PM'){echo "selected";} ?>>St. Pierre y Miquelon</option>  
+                                                    <option value="SZ" <?php if($_REQUEST['pais']=='SZ'){echo "selected";} ?>>Suazilandia</option>  
+                                                    <option value="SD" <?php if($_REQUEST['pais']=='SD'){echo "selected";} ?>>Sudán</option>  
+                                                    <option value="SE" <?php if($_REQUEST['pais']=='SE'){echo "selected";} ?>>Suecia</option>  
+                                                    <option value="CH" <?php if($_REQUEST['pais']=='CH'){echo "selected";} ?>>Suiza</option>  
+                                                    <option value="SR" <?php if($_REQUEST['pais']=='SR'){echo "selected";} ?>>Surinam</option>  
+                                                    <option value="TH" <?php if($_REQUEST['pais']=='TH'){echo "selected";} ?>>Tailandia</option>  
+                                                    <option value="TW" <?php if($_REQUEST['pais']=='TW'){echo "selected";} ?>>Taiwán</option>  
+                                                    <option value="TZ" <?php if($_REQUEST['pais']=='TZ'){echo "selected";} ?>>Tanzania</option>  
+                                                    <option value="TJ" <?php if($_REQUEST['pais']=='TJ'){echo "selected";} ?>>Tayikistán</option>  
+                                                    <option value="TF" <?php if($_REQUEST['pais']=='TF'){echo "selected";} ?>>Territorios franceses del Sur</option>  
+                                                    <option value="TP" <?php if($_REQUEST['pais']=='TP'){echo "selected";} ?>>Timor Oriental</option>  
+                                                    <option value="TG" <?php if($_REQUEST['pais']=='TG'){echo "selected";} ?>>Togo</option>  
+                                                    <option value="TO" <?php if($_REQUEST['pais']=='TO'){echo "selected";} ?>>Tonga</option>  
+                                                    <option value="TT" <?php if($_REQUEST['pais']=='TT'){echo "selected";} ?>>Trinidad y Tobago</option>  
+                                                    <option value="TN" <?php if($_REQUEST['pais']=='TN'){echo "selected";} ?>>Túnez</option>  
+                                                    <option value="TM" <?php if($_REQUEST['pais']=='TM'){echo "selected";} ?>>Turkmenistán</option>  
+                                                    <option value="TR" <?php if($_REQUEST['pais']=='TR'){echo "selected";} ?>>Turquía</option>  
+                                                    <option value="TV" <?php if($_REQUEST['pais']=='TV'){echo "selected";} ?>>Tuvalu</option>  
+                                                    <option value="UA" <?php if($_REQUEST['pais']=='UA'){echo "selected";} ?>>Ucrania</option>  
+                                                    <option value="UG" <?php if($_REQUEST['pais']=='UG'){echo "selected";} ?>>Uganda</option>  
+                                                    <option value="UY" <?php if($_REQUEST['pais']=='UY'){echo "selected";} ?>>Uruguay</option>  
+                                                    <option value="UZ" <?php if($_REQUEST['pais']=='UZ'){echo "selected";} ?>>Uzbekistán</option>  
+                                                    <option value="VU" <?php if($_REQUEST['pais']=='VU'){echo "selected";} ?>>Vanuatu</option>  
+                                                    <option value="VE" <?php if($_REQUEST['pais']=='VE'){echo "selected";} ?>>Venezuela</option>  
+                                                    <option value="VN" <?php if($_REQUEST['pais']=='VN'){echo "selected";} ?>>Vietnam</option>  
+                                                    <option value="YE" <?php if($_REQUEST['pais']=='YE'){echo "selected";} ?>>Yemen</option>  
+                                                    <option value="YU" <?php if($_REQUEST['pais']=='YU'){echo "selected";} ?>>Yugoslavia</option>  
+                                                    <option value="ZM" <?php if($_REQUEST['pais']=='ZM'){echo "selected";} ?>>Zambia</option>  
+                                                    <option value="ZW" <?php if($_REQUEST['pais']=='ZW'){echo "selected";} ?>>Zimbabue</option> 
                                           </select>
                                   </div>
 
                                   <div class="form-group">
                                       <label class="control-label" for="selectbasic">Provincia</label>
                                       <div class="controls">
-                                          <select id="provincia" name="provincia" value="<?php echo $_REQUEST['provincia'];?>" >
+                                          <select id="provincia" name="provincia">
                                                   <option value='0'>(Seleccionar)</option>
                                                   <option value='2' <?php if($_REQUEST['provincia']==2){echo "selected";} ?>> Álava</option>
                                                   <option value='3' <?php if($_REQUEST['provincia']==3){echo "selected";} ?>>Albacete</option>
