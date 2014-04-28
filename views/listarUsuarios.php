@@ -78,7 +78,10 @@
 
 
                       <!-- Muestra la lista de usuarios -->
-                      <?php $sql= usuario::listarUsuarios(); ?>
+                      <?php $pais=$_REQUEST['pais'];
+                            $provincia=$_REQUEST['provincia'];
+                      ?>
+                      <?php $sql= usuario::listarUsuarios($pais,$provincia); ?>
 
                         <table class="table table-hover">
                                 <thead>
@@ -119,7 +122,7 @@
                                         <td>
                                             <?php 
                                             $id=$row['id_usuario'];
-                                             echo "<a href='../controller/listarUsuariosController.php?id=$id'> Modificar</a>";
+                                             echo "<a href='../controller/modificarUsuarioController.php?action=buscar&id=$id'> Modificar</a>";
                                              ?>
                                         </td>
                                     </tr>

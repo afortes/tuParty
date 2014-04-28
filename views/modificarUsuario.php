@@ -72,12 +72,15 @@
                          <p>
                       <!-- Formulario de insercción de datos -->
 
-                               <form role="form" action="../controller/insertarUsuarioController.php" method="get">
+                               <form role="form" action="../controller/modificarUsuarioController.php" method="get">
                                   
+                                  <input type="hidden" name="action" value="modificar">
+
+
                                   <div class="form-group">
                                     <label for="Nombre">Nombre</label>
                                     <input type="text" class="form-control" id="nombre"
-                                           placeholder="Introduce tu nombre" name="nombre" value="<?php echo $_REQUEST['id'];?>">
+                                           placeholder="Introduce tu nombre" name="nombre" value="<?php echo $_REQUEST['nombre'];?>">
                                   </div>
 
                                   <div class="form-group">

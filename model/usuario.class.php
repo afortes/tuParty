@@ -67,11 +67,23 @@ class usuario {
 		cerrarBD();
 	}
 
-	public static function listarUsuarios(){
+	public static function listarUsuarios($pais,$provincia){
 
 		conectarBD();
 
-		$sql = mysql_query("SELECT * FROM `Usuarios` ");
+		if (!empty($pais) && !empty($provincia)){
+
+			$sql = mysql_query("SELECT * FROM Usuarios WHERE pais_usuario = '$pais' AND provincia_usuario = '$provincia'");
+			
+		}else if(!empty($pais)){
+
+			$sql = mysql_query("SELECT * FROM Usuarios WHERE pais_usuario = '$pais' ");
+				
+			}else if(!empty($provincia)){
+					
+				$sql = mysql_query("SELECT * FROM Usuarios WHERE provincia_usuario = '$provincia' ");
+			}
+
 		
 		cerrarBD();
 
@@ -98,11 +110,13 @@ class usuario {
 		$this->cp=$row['cp_usuario'];
 		$this->telefono=$row['telefono_usuario'];
 
+	}
 
-		
-
-
-
+	public function actualizarUsuario(){
+		conectarBD();
+		$sql= "UPDATE Usuarios SET nombre_usuario='$this->nombre',email_usuario='$this->email',pass_usuario='$this->pass',apellidos_usuario='$this->apellidos',fecha_nacimiento_usuario='$this->fecha_nacimiento',pass_usuario='$this->pais',provincia_usuario='$this->provincia',cp_usuario='$this->cp',telefono_usuario='$this->telefono' WHERE email_usuario='$this->email' ";		
+		insertar($sql);
+		cerrarBD();
 
 	}
 
