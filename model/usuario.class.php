@@ -120,6 +120,15 @@ class usuario {
 
 	}
 
+	public static function eliminarUsuario($id){
+
+		conectarBD();
+		$query = "DELETE FROM Usuarios WHERE id_usuario = '$id' ";
+		insertar($query);
+		cerrarBD();
+
+	}
+
 
 }	   
 ?>

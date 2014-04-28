@@ -125,6 +125,13 @@
                                              echo "<a href='../controller/modificarUsuarioController.php?action=buscar&id=$id'> Modificar</a>";
                                              ?>
                                         </td>
+                                        <td>
+                                            <?php 
+                                            $id=$row['id_usuario'];
+                                             echo "<a href='../controller/eliminarUsuarioController.php?id=$id'> Eliminar</a>";
+                                             ?>
+                                             
+                                        </td>
                                     </tr>
                                 </tbody>
 

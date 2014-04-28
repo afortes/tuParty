@@ -27,7 +27,7 @@ require_once('../model/usuario.class.php');
 		
 
 		$usuario = new usuario();
-
+		
 		$usuario->nombre=$nombre;
 		$usuario->email=$email;
 		$usuario->pass=$pass;
